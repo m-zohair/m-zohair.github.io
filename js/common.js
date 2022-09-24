@@ -1,7 +1,7 @@
-/*执行事件*/
+/*Functions*/
 $(function() {
 
-    //打印
+    //Print
     $('.button_print').click(function(){
         $('.main').print({
         addGlobalStyles : true,
@@ -99,7 +99,7 @@ $(function() {
         $('.carousel').addClass('slide');
     }
 
-    //product carousel (以0为开始)
+    //product carousel (Starts with 0)
     $('.product_1').click(function(){
         del_slide();
         $('.carousel').carousel(0);
