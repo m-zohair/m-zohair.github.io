@@ -138,7 +138,7 @@ i { font-size: 16px; }
 .info_timeline ul li.top .dot b { top: -6px; }
 .info_timeline ul li .con { padding-left: 30px; }
 .info_timeline ul li .con h3,.info_timeline ul.focus li.curr .con h3 { font-size: 14px; color: #333; line-height: 22px; padding-bottom: 3px; }
-.info_timeline ul li .con h2,.info_timeline ul.focus li.curr .con h2 { font-size: 22px; color: #292929; line-height: 22px; padding-bottom: 3px; }
+.info_timeline ul li .con h2,.info_timeline ul.focus li.curr .con h2 { font-size: 30px; color: #292929; line-height: 22px; padding-bottom: 3px; }
 .info_timeline ul li .con p { line-height: 25px; }
 .info_timeline ul.focus li.curr .con p { color: #666; }
 .info_timeline ul li .con p.desc,.info_timeline ul.focus li.curr .con p.desc { color: #999; }
