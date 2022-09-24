@@ -107,7 +107,7 @@ i { font-size: 16px; }
 
 .avatar b { width: 36px; height: 20px; line-height: 20px; background-color: #ccc; color: #fff; position: absolute; top: 50%; right: -18px; margin-top: -10px; text-align: center; font-weight: normal; }
 .base { padding: 27px 0 0; position: relative; }
-.base p { color: #aaa; line-height: 12px; }
+.base p { color: #aaa; line-height: 18px; }
 .base p.desc { color: #ccc; }
 .base h2 { font-size: 32px; color: #999; font-weight: normal; padding: 5px 0; }
 .base span p { padding: 0 0 10px; }
