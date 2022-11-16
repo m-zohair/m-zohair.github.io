@@ -21,8 +21,8 @@ input,button { -webkit-appearance:none; }
 
 input:-moz-placeholder { color: rgba(255,255,255,0.5); }
 ::-webkit-input-placeholder { color:rgba(255,255,255,0.5); }
-::-moz-selection { color: #fff;  background: #109d59; }
-::selection      { color: #fff;  background: #109d59; }
+::-moz-selection { color: #fff;  background: #2986CC; }
+::selection      { color: #fff;  background: #2986CC; }
 
 .clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
 .clearfix { *zoom:1; }
@@ -38,22 +38,22 @@ input:-moz-placeholder { color: rgba(255,255,255,0.5); }
 
 @keyframes myloading {
 	0% { border: 1px #eee solid; }
-	50% { border: 1px #109d59 solid; }
+	50% { border: 1px #2986CC solid; }
 	100% { border: 1px #eee solid; }
 }
 @-moz-keyframes myloading {
 	0% { border: 1px #eee solid; }
-	50% { border: 1px #109d59 solid; }
+	50% { border: 1px #2986CC solid; }
 	100% { border: 1px #eee solid; }
 }
 @-webkit-keyframes myloading {
 	0% { border: 1px #eee solid; }
-	50% { border: 1px #109d59 solid; }
+	50% { border: 1px #2986CC solid; }
 	100% { border: 1px #eee solid; }
 }
 @-o-keyframes myloading {
 	0% { border: 1px #eee solid; }
-	50% { border: 1px #109d59 solid; }
+	50% { border: 1px #2986CC solid; }
 	100% { border: 1px #eee solid; }
 }
 
@@ -68,7 +68,7 @@ i { font-size: 16px; }
 .mt20 { margin-top: 20px; }
 
 /* button */
-.btn_green { background-color: #109d59; color: #fff; }
+.btn_green { background-color: #2986CC; color: #fff; }
 .btn_green:active { background-color: #0d8049; color: #fff; }
 .btn_more { background-color: #fff; color: #999; }
 .btn_more:hover { background-color: #f3f3f3; }
@@ -78,7 +78,7 @@ i { font-size: 16px; }
 
 /* sound */
 .sound_area { width: 38px; height: 38px; position: fixed; top: 55px; right: 10px; z-index: 99; }
-.sound_area .sa_start { width: 36px; height: 36px; line-height: 36px; text-align: center; background-color: #fff; border: 1px #ccc solid; overflow: hidden; font-size: 16px; color: #109d59; animation:myloading 1s linear infinite; -moz-animation:myloading 1s linear infinite; -webkit-animation:myloading 1s linear infinite; -o-animation:myloading 1s linear infinite; cursor: pointer; }
+.sound_area .sa_start { width: 36px; height: 36px; line-height: 36px; text-align: center; background-color: #fff; border: 1px #ccc solid; overflow: hidden; font-size: 16px; color: #2986CC; animation:myloading 1s linear infinite; -moz-animation:myloading 1s linear infinite; -webkit-animation:myloading 1s linear infinite; -o-animation:myloading 1s linear infinite; cursor: pointer; }
 .sound_area .sa_start:hover { background-color: #f3f3f3; }
 .sound_area .sa_info { position: absolute; right: 30px; top: 0; background-color: #fff; border: 1px #ccc solid; box-shadow: 0 1px 3px rgba(0,0,0,0.2); -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.2); -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.2); padding: 5px; width: 190px; display: none; }
 .sound_area:hover .sa_info { display: block; }
@@ -119,9 +119,9 @@ i { font-size: 16px; }
 .info_content p em { margin: 0 5px; }
 .info_content ul li { list-style: none; overflow: hidden; position: relative; }
 .info_content ul li h3 { font-size: 12px; color: #333; line-height: 25px; }
-.info_content ul li:hover h3 { color: #109d59; }
+.info_content ul li:hover h3 { color: #2986CC; }
 .info_content ul li h3 i { float: left; margin-right: 10px;  }
-.info_content ul li:hover h3 i { color: #109d59; }
+.info_content ul li:hover h3 i { color: #2986CC; }
 .info_content ul li h3 em { color: #999; padding-left: 10px; }
 .info_content ul li p { padding-left: 26px; color: #999; }
 .info_content ul li p i { margin-left: 5px; }
@@ -141,7 +141,7 @@ i { font-size: 16px; }
 .info_timeline ul li .con p { line-height: 25px; }
 .info_timeline ul.focus li.curr .con p { color: #666; }
 .info_timeline ul li .con p.desc,.info_timeline ul.focus li.curr .con p.desc { color: #999; }
-.info_timeline ul.focus li.curr .dot,.info_timeline ul.focus li.curr .dot b { background-color: #109d59; }
+.info_timeline ul.focus li.curr .dot,.info_timeline ul.focus li.curr .dot b { background-color: #2986CC; }
 .info_timeline ul.focus li .dot,.info_timeline ul.focus li .dot b { background-color: #bbb; }
 .info_timeline ul.focus li .con h3,.info_timeline ul.focus li .con p,.info_timeline ul.focus li .con p.desc { color: #bbb; }
 
