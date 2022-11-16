@@ -163,7 +163,7 @@ i { font-size: 16px; }
 .tip_avatar_con { width: 100%; height: 100%; }
 .tip_avatar_con .desc { width: 100%; position: absolute; bottom: 0; height: 30px; line-height: 30px; text-align: center; color: #a22f1e; }
 .tip_right p { color: #fff; line-height: 22px; padding-top: 10px; }
-.tip_right p.en { color: #e6897b; }
+.tip_right p.en { color: #fff; }
 .tip_right p i { float: left; margin-right: 10px; }
 .tip_right h2 { font-size: 36px; color: #fff; }
 .tip_right p .wechat { width: 150px; height: 150px; display: block; background: url(../images/wechat.png) no-repeat 0 0; }
